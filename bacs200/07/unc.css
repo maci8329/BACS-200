@@ -1,0 +1,13 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    color: black;
+    border: 3px solid purple;
+    background-color: white;
+}
+
+a {
+    color: purple;
+}
