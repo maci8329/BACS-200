@@ -1,0 +1,25 @@
+* {
+    border: dashed 3px purple;
+    padding: 10px;
+    margin: 50px;
+}
+
+body {
+    border: solid 4px black;
+    background-color: lightgray;
+}
+
+header {
+    border: solid 4px pink;
+    background-color: white;
+}
+
+footer {
+    border: solid 4px purple;
+    background-color: lightpink;
+}
+
+main {
+    border: solid 4px pink;
+    background-color: white;
+}
