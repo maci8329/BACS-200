@@ -127,3 +127,31 @@ textarea {
 a {
     color: darkmagenta;
 }
+
+
+#side-menu {
+    margin: 5px;
+    float: left;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    text-align: left;
+}
+
+#side-menu ul {
+    list-style-type: none;
+}
+
+#side-menu ul li {
+    padding: 12px;
+    width: 150px;
+    margin: 15px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#side-menu ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
