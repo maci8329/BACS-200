@@ -7,7 +7,7 @@ body {
 }
 
 article {
-    border: 2px solid blue;
+    border: 2px solid black;
     box-shadow: 2px 2px 5px grey;
     margin: 3em;
     padding: 1em;
@@ -33,7 +33,7 @@ h1 {
 h2 {
     color: black;
     background-color: lightgray;
-    border: 2px solid #0E3D65;
+    border: 2px solid gray;
     text-align: left
     margin: 5px 10px;
     padding: 5px 10px;
@@ -47,9 +47,10 @@ h4 {
 }
 
 header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
+    border: 5px solid purple;
+    background-color: gainsboro;
     font-family: sans-serif;
+    color:white;
     padding: 1.5em;
 }
 
@@ -62,7 +63,7 @@ header a:hover {
 }
 
 header h1 {
-    color: #F6B018;
+    color: white;
     border: none;
     padding: 0;
     margin: 20px 0;
@@ -72,7 +73,7 @@ header h1 {
 
 header h2 {
     color: white;
-    background-color: #0E3D65;
+    background-color: purple;
     box-shadow: none;
     text-align: left;
     margin: 0;
@@ -111,10 +112,10 @@ p {
 }
 
 pre {
-    border: 1px solid yellow;
-    border-left: 3px solid #F6B018;
-    border-right: 3px solid #F6B018;
-    background-color: #f0f0f0;
+    border: 1px solid grey;
+    border-left: 3px solid grey;
+    border-right: 3px solid white;
+    background-color: purple;
     margin-left: 3em;
     margin-right: 3em;
     padding: 10px 20px;
@@ -128,7 +129,16 @@ a {
     color: darkmagenta;
 }
 
-
+aside {
+    background-color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    border: 2px solid black;
+    float: right;
+    width: 30%;
+}
 #side-menu {
     margin: 5px;
     float: left;
