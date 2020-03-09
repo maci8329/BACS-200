@@ -35,7 +35,8 @@ h2 {
     background-color: lightgray;
     border: 2px solid gray;
     text-align: left
-    margin: 5px 10px;
+    margin: 5px 8
+        px;
     padding: 5px 10px;
     box-shadow: 4px 4px 7px gray;
 }
