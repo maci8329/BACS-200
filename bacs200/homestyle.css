@@ -21,3 +21,25 @@ a {
     color: purple;
 }
 
+#main-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#main-menu ul li {
+    display: inline;
+    padding: 1em;
+    margin: 0px;
+    width: 200px;
+    background-color: purple;
+    color: Black;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#main-menu ul li a {
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
