@@ -1,0 +1,46 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.center {
+    text-align: center;
+    border: 5px solid black;
+}
+
+#side-menu {
+    margin: 10px;
+    float: left;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    text-align: left;
+}
+
+#side-menu ul {
+    list-style-type: none;
+}
+
+#side-menu ul li {
+    padding: 15px;
+    width: 150px;
+    margin: 10px;
+    background-color: red;
+    box-shadow: 2px 2px 5px black;
+}
+
+#side-menu ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
